@@ -1,14 +1,14 @@
-# NEUROSIGN
+### NEUROSIGN
 
-Problem Statement
+#Problem Statement
 With mental health conditions like depression and ADHD on the rise, there is a pressing need for non-invasive, data-driven tools that can assist in early diagnosis and monitoring. Traditional methods for diagnosing these disorders often rely on subjective assessments and can take time to produce accurate results. The project aims to address these limitations by utilizing EEG data and ma
 
-Introduction
+#Introduction
 
 The project focuses on analyzing and predicting neural health conditions, specifically exploring stroke risks and related neurological issues using EEG data. Electroencephalography (EEG) is a widely used technique for monitoring brain activity through electrical signals captured by electrodes placed on the scalp. By leveraging advanced data processing and machine learning techniques, the project aims to identify patterns or anomalies in EEG data that correlate with conditions like Attention Deficit Hyperactivity Disorder (ADHD) or stroke risks. This project can provide critical insights into brain health, paving the way for early detection and better management of neurological disorders.
 
 
-Novelty
+#Novelty
 Cluster-Based Approach: Unlike existing models, this solution clusters unlabeled EEG data for depression and ADHD risk without pre-labelled datasets.
 Real-Time Validation: An iterative process optimizes clusters until a validation score of 0.75+ is achieved, ensuring high reliability. Post-clustering, a Random Forest algorithm is applied to predict new inputs' mental health states with high accuracy, chain learning to predict mental health conditions based on cognitive load patterns.
 
@@ -16,7 +16,7 @@ Real-Time Validation: An iterative process optimizes clusters until a validation
 
 
 
-Key Features
+#Key Features
 
 
 •	EEG Signal Processing: Extraction of key signals from the frontal regions, crucial for identifying attention and emotional imbalances.
@@ -37,7 +37,7 @@ Provides an efficient method for detecting early signs of ADHD and depression, p
 Facilitates more proactive mental health interventions based on objective EEG signal analysis.
 
 
-Potential Future Applications
+#Potential Future Applications
 
 This system can be expanded to detect other cognitive and neurological conditions such as anxiety, epilepsy, or even general cognitive load analysis for educational or performance monitoring applications.
 
